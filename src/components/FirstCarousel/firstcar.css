@@ -1,0 +1,22 @@
+.card{
+    width: 642px;
+        height: 290px;
+        flex-shrink: 0;
+        border-radius: 40px;
+            background: #EDF2FF;
+}
+
+.card-body{
+    display: flex;
+ 
+}
+
+.img{
+    width: 300px;
+    position: absolute;
+        height: 340px;
+        transform: rotate(-3deg);
+        flex-shrink: 0;
+        border-radius: 32px;
+            background: url('../../assets//complexCarousel/Rectangle\ 3.jpg'), lightgray 50% / cover no-repeat;
+}

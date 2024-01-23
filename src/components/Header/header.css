@@ -1,71 +1,112 @@
-.container{
-    display: flex;
-        width: 1440px;
-        padding: 7px 80px;
-        justify-content: space-between;
-        align-items: center;
+.container {
+  display: flex;
+  width: 100%;
+  padding: 7px 80px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
 
-.website-icon{
-    width: 124.935px;
-        height: 30.331px;
+.website-icon {
+  width: 124.935px;
+  height: 30.331px;
 }
 
-.first{
-    display: flex;
-        align-items: center;
-        gap: 48px;
+.first {
+  display: flex;
+  align-items: center;
+  gap: 48px;
 }
-.input-wrapper{
-    position: relative;
-display: flex;
-    width: 380px;
-    padding: 9px 16px;
-    align-items: center;
-    gap: 10px;
-    height: 50px;
+.input-wrapper {
+  position: relative;
+  display: flex;
+  width: 380px;
+  padding: 9px 16px;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
 }
-.search-icon{
- position: absolute;
-    width: 19.456px;
-        height: 19.456px;
-        flex-shrink: 0;
-        left: 8%;
-    
+.search-icon {
+  position: absolute;
+  width: 19.456px;
+  height: 19.456px;
+  flex-shrink: 0;
+  left: 8%;
 }
-.header-input{
-    color: #8191BA;
-        font-family: Inter;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        border-radius: 8px;
-        height: 40px;
-      
-      
+.header-input {
+  color: #8191ba;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 8px;
+  height: 40px;
 }
 ::-webkit-input-placeholder {
-    padding-left: 30px;
-
+  padding-left: 30px;
 }
 
-.second{
-    display: flex;
-        align-items: center;
-        gap: 24px;
+.second {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
-.header-common{
-    display: flex;
-        align-items: center;
-        gap: 24px;
-        cursor: pointer;
+.header-common {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  cursor: pointer;
 }
-.header-common:hover{
-    color: #3B72FF;
+.header-common:hover {
+  color: #3b72ff;
 }
-.vl{
-    background: rgba(0, 0, 0, 0.12);
-    width: 1px;
-        height: 21px;
+.vl {
+  background: rgba(0, 0, 0, 0.12);
+  width: 1px;
+  height: 21px;
 }
+
+.inside {
+  display: flex;
+  flex-direction: column;
+}
+
+.next-delivery {
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mon-15 {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.next-delivery:hover{
+    color: #3b72ff;
+}
+.mon-15:hover{
+    color: #3b72ff;
+}
+
+.arrow {
+  width: 20px;
+  height: 20px;
+}
+.arrow:hover{
+    color: #3b72ff;
+    cursor: pointer;
+}
+.frame1{
+    cursor: pointer;
+}
+
